@@ -1,0 +1,76 @@
+.frame-style {
+    display: flex;
+    /* padding: var(--spacing-200, 1rem) var(--spacing-200, 1rem) var(--spacing-500, 2.5rem) var(--spacing-200, 1rem); */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-300, 1.5rem);
+    border-radius: 1.25rem;
+    background: var(--color-white, #FFF);
+    /* card-shadow */
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+}
+
+section {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 0.625rem;
+    background: var(--color-blue-600, #2C7DFA);
+    text-align: center;
+    padding: 4rem;
+}
+
+#QR-img {
+    width: 100%;
+    width: 10rem;
+    height: 10rem;
+    flex-shrink: 0;
+    /* padding: 4rem; */
+    text-align: center;
+}
+
+
+.Message-p {
+    color: var(--color-slate-900, #1F314F);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    /* text-preset-1 */
+    font-family: Outfit;
+    font-size: var(--font-size-text-preset-1, 1.375rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 1.65rem */
+    align-self: stretch;
+}
+
+
+
+.Scan-p {
+    color: var(--color-slate-500, #68778D);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    /* text-preset-2 */
+    font-family: Outfit;
+    font-size: var(--font-size-text-preset-2, 0.9375rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 1.3125rem */
+    letter-spacing: 0.0125rem;
+    align-self: stretch;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: lightblue;
+
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    body {
+        background-color: lightblue;
+    }
+}
